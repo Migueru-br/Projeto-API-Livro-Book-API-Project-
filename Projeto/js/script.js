@@ -25,14 +25,40 @@ function traduzirGenero(genero) {
         "Biography": "Biografia",
         "History": "História",
         "Children": "Infantil",
-        "Philosophy":"Filosofia",
-        "Religion":"Religião",
-        "Biology":"Biologia",
-        "Adventure":"Aventura",
-        "Young Adult Fiction":"Ficção Juvenil"
+        "Philosophy": "Filosofia",
+        "Religion": "Religião",
+        "Biology": "Biologia",
+        "Adventure": "Aventura",
+        "Young Adult Fiction": "Ficção Juvenil",
+        "Drama": "Drama",
+        "Poetry": "Poesia",
+        "Self-Help": "Autoajuda",
+        "Art": "Arte",
+        "Business": "Negócios",
+        "Health & Fitness": "Saúde e Fitness",
+        "Travel": "Viagem",
+        "Cooking": "Culinária",
+        "Politics": "Política",
+        "Humor": "Humor",
+        "Education": "Educação",
+        "Psychology": "Psicologia",
+        "Technology": "Tecnologia",
+        "Computer Science": "Ciência da Computação",
+        "Law": "Direito",
+        "Economics": "Economia",
+        "Sports": "Esportes",
+        "Music": "Música",
+        "Gardening": "Jardinagem",
+        "Comics & Graphic Novels": "Quadrinhos e Novelas Gráficas",
+        "Horror": "Terror",
+        "Western": "Faroeste",
+        "Memoir": "Memórias",
+        "Science": "Ciência",
+        "True Crime": "Crime Real"
     };
     return generosTraduzidos[genero] || genero; 
 }
+
 
 function pesquisarLivroPorTitulo(titulo) {
     if (titulo.trim() !== "") {
