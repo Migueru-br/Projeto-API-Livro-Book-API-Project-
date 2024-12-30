@@ -1,4 +1,4 @@
-# Projeto-API-Livro-Book-API-Project-
+# Projeto-API-Livro-(Book-API-Project)
 PT
 Projeto de Integração entre as linguagens HTML,CSS e JS visando a criação de uma interface que, ao receber o nome de um livro, busca as informações a ele relacionadas em uma API (Google Books API)
 
