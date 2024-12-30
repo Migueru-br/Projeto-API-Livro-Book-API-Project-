@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONSULTAR LIVROS</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  
+    <form method="get" action="">
+        <h1>Consultar livro via API</h1>
+        <br>
+        <label> Título do livro: </label>
+        <input type="text" name="titulo_livro" id="titulo_livro" size="60">
+        <br><br>    
+        <label> Gênero: </label>
+        <input type="text" name="genero" id="genero" size="60" readonly>
+        <br><br>
+        <label> Data de publicação: </label>
+        <input type="text" name="data_publicacao" id="data_publicacao" size="60" readonly>
+        <br><br>
+        <label> Avaliação: </label>
+        <input type="text" id="avaliacao" size="60" readonly>
+        <br><br>
+        <label> Número de Avaliações: </label>
+        <input type="text" id="num_avaliacoes" size="60" readonly>
+        <br><br>
+        <label> Preço: </label>
+        <input type="text" id="preco" size="60" readonly>
+        <br><br>
+        <label> Capa do Livro: </label>
+        <img id="imagem_capa" name= "imagem_capa" src="" alt="Capa do Livro" style="width:200px;">
+        <br><br>
+
+        <button type="button" onclick="pesquisarLivroPorTitulo(titulo_livro.value)">Pesquisar</button>
+        <br><br>
+        <button type="button" onclick="limpar_formulario()">Limpar Formulário</button>
+        <br>
+    </form>
+</body>
+</html>
